@@ -1,0 +1,553 @@
+.home-page{
+    margin: 0px 100px;
+}
+
+/*-----------------Navigatin Bar-----------------*/
+
+#hero-section .navbar .logo{
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+#hero-section .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+
+}
+
+#hero-section .navbar .navigations {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+}
+
+#hero-section .navbar .navigations ul{
+    display: flex;
+    flex-direction: row;
+    border-left: 4px solid #FFBF18;
+    height: 35px;
+    align-items: center;
+}
+
+.btn-quote{
+    height: 50px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: #FFBF18;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#hero-section .navbar .navigations .btn-sign-in{
+    height: 50px;
+    margin-left: 20px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+#hero-section .navbar .navigations ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+#hero-section .navbar .navigations ul li .btn-01{
+    margin-left: -70px;
+}
+
+#hero-section .navbar .navigations ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#hero-section .navbar .navigations ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+/*-----------------Navigatin Bar-----------------*/
+
+#hero-section .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hero-section .content .conten-text{
+    background-color: white;
+    width: 750px;
+    height: 550px;
+    position: absolute;
+}
+
+#hero-section .content .conten-text .logistic{
+    letter-spacing: 5px;
+    border-left: 4px solid #FFBF18;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#hero-section .content .conten-text .best-shpping{
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+#hero-section .content .conten-text .partner{
+    font-size: 70px;
+    margin-top: -70px;
+    color: #FFBF18;
+    font-weight: 700;
+}
+
+#hero-section .content .conten-text button{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+#hero-section .content .conten-text .description{
+    width: 700px;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+#hero-section .content .conten-img{
+    margin-left: 670px;
+}
+
+#hero-section .content .conten-img img{
+    width: 950px;
+    height: 750px;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    object-fit: cover;
+}
+
+
+/*-----------------Welcom Sexction-----------------*/
+
+#welcome-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#welcome-section .img-content{
+    position: relative;
+    width: 50%;
+    margin-top: 200px;
+    justify-content: end;
+    display: flex;
+    margin-left: -100px;
+}
+
+#welcome-section .img-content .stock-checking{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+}
+
+#welcome-section .img-content .loading{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 200px;
+    right: 400px;
+    object-fit: cover;
+}
+
+#welcome-section .text-content {
+    width: 700px;
+    margin-top: 200px;
+}
+
+#welcome-section .text-content .text-01{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#welcome-section .text-content .text-02{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -40px;
+}
+
+#welcome-section .text-content .text-02 span{
+    color: #FF8E2B;
+} 
+
+#welcome-section .text-content .text-03{
+    width: 600px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+#welcome-section .text-content .text-04{
+    width: 600px;
+    font-weight: 600px;
+    font-size: 19px;
+}
+
+#welcome-section .text-content .text-button .more-about-us{
+    height: 50px;
+    padding: 0px 30px;
+    cursor: pointer;
+    background-color: #b9b6ac;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(18, 85, 74);
+    letter-spacing: 2px;
+    opacity: 90px;
+}
+
+/*-----------------Our Service Section-----------------*/
+
+#our-service-section {
+    margin-top: 300px;
+}
+
+#our-service-section .service-content{
+    text-align: center; 
+      
+}
+
+#our-service-section .service-content p{
+    font-weight: bold;
+    color: green;
+}
+
+#our-service-section .service-content .different-service-container{
+    justify-content: center;
+    display: flex;
+}
+
+#our-service-section .service-content h1{
+    font-size: 40px;
+}
+
+#our-service-section .service-content .diferent-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-img{
+    width: 300px;
+    height: 300px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text{
+    width: 300px;
+    text-align: start;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text p{
+    color: rgb(122, 122, 122);
+    text-align: start;
+    margin-right: 30px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 160px;
+    border: none;
+    background-color: transparent;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text button p{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#our-service-section .service-content .diferent-services .air-cargo .air-cargo-text button svg{
+    fill: white;
+    background-color: black;
+    padding: 2px 2px;
+    border-radius: 50%;
+}
+
+#our-service-section .service-content .transport-solution{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+    align-items: center;
+}
+#our-service-section .service-content .transport-solution p{
+    color: rgb(117, 117, 117);
+    font-weight: 500;
+}
+
+#our-service-section .service-content .transport-solution p span{
+    font-weight: bold;
+    color: black;
+}
+
+#our-service-section .service-content .transport-solution svg{
+    fill: white;
+    background-color: rgb(85, 84, 84);
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+/*-----------------States Section-----------------*/
+
+#state-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 1500px;
+    margin-left: 80px;
+}
+
+
+#state-section .state-bottom{
+    position: relative;
+}
+
+#state-section .state-bottom p{
+    font-size: 150px;
+    font-weight: 900;
+    color: white;
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+#state-section .state-bottom .state-top {
+    display: flex;
+    flex-direction: row;
+}
+
+#state-section .state-bottom .state-top .number{
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(0, 0, 146);
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 140px;
+}
+
+#state-section .state-bottom .state-top .text{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 146);
+    text-shadow: -10px 10px 20px rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 210px;
+    left: 130px;
+    width: 90px;
+    line-height: 1.5cap;
+    text-align: left;
+}
+
+
+/*-----------------States Section-----------------*/
+
+#choose-us-section{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#choose-us-section .trusted-client{
+    width: 50%;
+}
+
+#choose-us-section .trusted-client h1{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+#choose-us-section .trusted-client p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: rgb(131, 124, 124);
+    font-weight: 600;
+}
+
+#choose-us-section .trusted-client .message{
+    background-color: rgb(228, 222, 222);
+    height: 150px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#choose-us-section .trusted-client .message p{
+    text-align: justify;
+    width: 600px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+#choose-us-section .trusted-client .name{
+    margin-top: 50px;
+}
+
+#choose-us-section .trusted-client .name h1{
+    font-size: 18px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+#choose-us-section .trusted-client .name p{
+    font-size: 15px;
+    text-align: end;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+#choose-us-section .why-choose-us{
+    width: 50%;
+}
+
+#choose-us-section .why-choose-us h1{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+#choose-us-section .why-choose-us p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: rgb(131, 124, 124);
+    font-weight: 600;
+}
+
+#choose-us-section .why-choose-us .feature{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#choose-us-section .why-choose-us .feature .point{
+    margin-bottom: 0px;
+    
+}
+
+
+#choose-us-section .why-choose-us .feature .puls{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    
+}
+
+/*-----------------States Section-----------------*/
+
+#client-logo-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100PX;
+    width: 1500px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+
+#client-logo-section img{
+    width: 200px;
+
+}
+
+.different-service-container {
+    margin-bottom: 20px; /* Adjust the value to your desired gap size */
+}
+
+.cur{
+    margin-top: -20px;
+}
+.pp{
+    margin-left: 20px;
+}
+.top{
+    margin-top: -90px;
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#welcome-section {
+    position: relative;
+    overflow: hidden; /* To hide overflow during animation */
+}
+
+.text-content {
+    animation: slideInFromRight 2s ease-out forwards;
+}
+
+/* Additional styles for the section */
+.img-content {
+    position: relative;
+    z-index: 1;
+}
+
+.text-content {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background color to make text more readable */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add any other necessary styles */

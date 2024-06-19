@@ -1,0 +1,132 @@
+.footer {
+    background-color: #374151;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.newsletter-title {
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: -70px;
+}
+
+.newsletter-input input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 100px;
+}
+
+.newsletter-button button {
+    width: 200px;
+    height: 50px;
+    background-color: #F97316;
+    color: #ffffff;
+    gap: 10px;
+    margin-left: 170px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-section {
+    color: #ffffff;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #c0b5af;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #E0F2FE;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9CA3AF;
+}
+
+.footer-bottom h2 {
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #F97316;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+    color: #E0F2FE;
+}
+
+.footer-social a {
+    margin-left: 10px;
+}
+
+.footer-social img {
+    height: 30px;
+    width: 30px;
+    transition: filter 0.3s;
+}
+
+.footer-social img:hover {
+    filter: brightness(1.5);
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+.aircargo{
+    height: 70px;
+    width: 70px
+}
